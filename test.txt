@@ -1,0 +1,5 @@
+adb shell
+am start -n com.example.pandazheng.testapp/.Welcome
+content query --uri content://com.example.pandazheng.contentproviderdemo.MyProvider/udetails
+
+
