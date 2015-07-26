@@ -2,4 +2,7 @@ adb shell
 am start -n com.example.pandazheng.testapp/.Welcome
 content query --uri content://com.example.pandazheng.contentproviderdemo.MyProvider/udetails
 
+am broadcast -a MyBroadcast -n com.example.pandazheng.vulbroadcastreceiver/.MyBroadCastReceiver -es number 5556
+
+
 
