@@ -4,5 +4,7 @@ content query --uri content://com.example.pandazheng.contentproviderdemo.MyProvi
 
 am broadcast -a MyBroadcast -n com.example.pandazheng.vulbroadcastreceiver/.MyBroadCastReceiver -es number 5556
 
+am start -n com.example.pandazheng.extrademo/.MainActivity -e package_name 包名 -e class_name 组件名
+
 
 
